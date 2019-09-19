@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Raleway:200i,300i,400i&display=swap');
+
+body{
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.desafioconcrete{
+    width: 50%;
+}
+
+.title{
+    font-size: 60px;
+    color: #000000;
+    text-align: center;
+}
+.title_git{
+    font-family: "Monaco", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    display: inline-block;
+}
+.title_search{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+.search {
+    max-width: 650px;
+    position: relative;
+    display: flex;
+    margin: 10px auto;
+}
+  
+  .searchTerm {
+    width: 100%;
+    max-width: 650px;
+    border: 1px solid #5c5c5c;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+    color: #b9b9b9;
+    font-size: 20px;
+
+  }
+  
+  .searchTerm:focus{
+    color: #ac53f2;
+    
+  }
+  
+  .searchButton {
+    width: 80px;
+    height: 52px;
+    border: 1px solid #ac53f2;
+    background: #ac53f2;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .wrap{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
