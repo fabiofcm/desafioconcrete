@@ -1,15 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200i,300i,400i&display=swap');
 
 body{
-  background: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
-
 .desafioconcrete{
     width: 50%;
 }
-
 .title{
     font-size: 60px;
     color: #000000;
@@ -25,16 +23,14 @@ body{
     font-weight: 200;
     font-style: italic;
 }
-
-
 .search {
     max-width: 650px;
     position: relative;
     display: flex;
     margin: 10px auto;
+    padding: 0px 20px;
 }
-  
-  .searchTerm {
+.searchTerm {
     width: 100%;
     max-width: 650px;
     border: 1px solid #5c5c5c;
@@ -45,15 +41,11 @@ body{
     outline: none;
     color: #b9b9b9;
     font-size: 20px;
-
   }
-  
-  .searchTerm:focus{
+.searchTerm:focus{
     color: #ac53f2;
-    
   }
-  
-  .searchButton {
+.searchButton {
     width: 80px;
     height: 52px;
     border: 1px solid #ac53f2;
@@ -64,8 +56,7 @@ body{
     cursor: pointer;
     font-size: 30px;
   }
-  
-  .wrap{
+.wrap{
     width: 100%;
     position: absolute;
     top: 50%;
